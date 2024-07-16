@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .nav{
+            width: 100%;
+            background-color: rgb(51, 51, 51);
+        }
+        .menu{
+            margin: auto;
+            width: 80%;
+            display: flex;
+            padding: 10px 0;
+            justify-content: space-between;
+        }
+        .menu ul{
+            list-style: none;
+        }
+        ul{
+            display: flex;
+        }
+        ul li{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        a{
+            display: block;
+            padding: 20px;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        i{
+            font-size: 25px;
+        }
+        a:hover{
+            transition: 0.3s;
+            background: rgb(243, 201, 11);
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-house"></i>
+                        <span>
+                            Home
+                        </span>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-microsoft"></i>
+                        <span>
+                            MS
+                        </span>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-html5"></i>
+                        <span>
+                            HTML
+                        </span>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <span>
+                            CSS
+                        </span>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-bootstrap"></i>
+                        <span>
+                            Bootstrap
+                        </span>
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-address-card"></i>
+                        <span>
+                            About US
+                        </span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i> | <i class="fa-brands fa-telegram"></i>
+                        </div>
+                        <span>
+                            (+855) 96 675 0034
+                        </span>
+                    </a>
+                </li>
+            </ul>      
+        </div>
+    </div>
+</body>
+</html>
